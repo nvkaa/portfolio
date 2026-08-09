@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: red solid 1px !important; */
+}
+
+/* Ensure body takes full screen width without flex shrinking children */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#div1 {
+  width: 100%; 
+  height: 100vh;
+  background: linear-gradient(to right, lightblue 50%, white 50%);
+  text-align: center;
+  padding-top: 50vh;
+}
+
+#about {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+@media (min-width: 772px) {
+    #about {
+        margin: 5rem;
+        width: fit-content;
+    }
+}

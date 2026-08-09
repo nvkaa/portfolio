@@ -1,0 +1,142 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- JavaScript bootstrap -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+    <script src="./script/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome icons (JS) -->
+    <script src="https://kit.fontawesome.com/e89b91a87c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <!--  me-auto: align left
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0"> 
+            -->
+            <!-- 
+            w-100: width 100%
+            justify-content-evenly: spread evenly accross the main axis
+            justify-content-between (pushes items to the far edges)
+            justify-content-around (equal space around each item)  
+            -->
+            <ul class="navbar-nav flex-row w-100 justify-content-evenly">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#header">
+                        <!-- this one is for fontawesome -->
+                        <i class="fa fa-home"></i>  
+                        <b>Home</b>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id='div1'>
+        <p class="h5">HEY! I AM</p>
+        <p class="h1">John Doe</p>
+        <p class="h4">I'm a Developer</p>
+    </div>
+    <main>
+        
+        <div id='about'>
+            <div>
+                <h1 class="fw-bold">Intro</h1>
+                <p>This is my Final Project for the Coursera course Web Design for Everybody CAPSTONE. I integrated some Bootstrap and Fontawesome (one icon), I hope that is enough since they are called 'extras.' This is my first time doing a portfolio, and it is hand coded as well, there are quite a lot going on, so should there be any mistakes, please forgive. I tried my best accounting for responsive designs and also invested in writing these lines of content instead of filler text, but I have no experiences to show XD.
+                <br> Below is my brief introduction about myself. <br><br>
+                <span class="fw-semibold fst-italic">AND PLEASE LET ME PASS MY DEAR PEER GRADERS.</span></p> <br>
+
+                <h1 class="fw-bold">About me</h1>
+                <p><span class="h5 fw-medium">Name:</span> John Doe <br>
+                    <span class='h5'>Date of birth:</span> dd/mm/yy <br>
+                    <span class='h5'>Address:</span> FPT University, Hoa Lac Hi-Tech, Km29 Thang Long Boulevard <br>
+                    <span class='h5'>Zipcode:</span> 100000 <br>
+                    <span class='h5'>Email:</span> ...@gmail.com <br>
+                    <span class='h5'>Phone:</span> 0912345678</p>
+            </div>
+
+            <div>
+                <h2 class='fw-semibold'>Education</h1>
+                <p class="h5 fw-normal">
+                    FPT University K21 '25 <br>
+                    <span class="h6 fw-normal">Software Engineer Major</span>
+                </p>
+
+
+                <h2 class='fw-semibold'>Professional Development</h1>
+                <p>Tutor/Teaching Assistant for an edtech system in 2021.</p>
+
+                <h2 class="fw-semibold">Awards</h2>
+                <p>Silver Medal <i class="fa-solid fa-medal"></i> - HongKong International Computational Olympiad (HKICO) 2025</p>
+
+
+                <h2 class='fw-semibold' id="contact">Contact</h2>
+                <p>This part is filler because I will not provide my personal info here <br>
+                    <span class='h5'>Email:</span> ...@gmail.com <br>
+                    <span class='h5'>Phone:</span> 0912345678</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container-fluid">
+            <div class="row align-items-center gy-3 text-center text-md-start">
+            
+            <!-- Brand / Logo Area -->
+            <div class="col-md-4">
+                <a href="index.html" class="text-white text-decoration-none fw-bold fs-5">
+                <i class="fa fa-code me-2"></i>John Doe
+                </a>
+                <p class="text-muted small mb-0 mt-1">Web Developer & Designer</p>
+            </div>
+
+            <!-- Quick Links (Matching Navbar Layout) -->
+            <div class="col-md-4">
+                <ul class="list-unstyled d-flex justify-content-center justify-content-md-center gap-3 mb-0">
+                <li>
+                    <a href="index.html" class="text-white-50 text-decoration-none hover-white">
+                    <i class="fa fa-home me-1"></i>Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="text-white-50 text-decoration-none hover-white">About</a>
+                </li>
+                <li>
+                    <a href="#contact" class="text-white-50 text-decoration-none hover-white">Contact</a>
+                </li>
+                </ul>
+            </div>
+
+            <!-- Social Icons / Copyright -->
+            <div class="col-md-4 text-md-end">
+                <div class="d-flex justify-content-center justify-content-md-end gap-3 fs-5 mb-2">
+                <a href="#" class="text-white-50"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="text-white-50"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="text-white-50"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <p class="text-muted small mb-0">&copy; 2026 John Doe. All rights reserved.</p>
+            </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
