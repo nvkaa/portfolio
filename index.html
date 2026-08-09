@@ -15,7 +15,11 @@
     <script src="./script/bootstrap.bundle.min.js"></script>
 
     <!-- Font Awesome icons (JS) -->
-    <script src="https://kit.fontawesome.com/e89b91a87c.js" crossorigin="anonymous"></script>
+    <!-- 
+    this one is for online fetch
+    <script src="https://kit.fontawesome.com/e89b91a87c.js" crossorigin="anonymous"></script> 
+    -->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
 
     <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio</title>
@@ -66,31 +70,40 @@
                 <h1 class="fw-bold">About me</h1>
                 <p><span class="h5 fw-medium">Name:</span> John Doe <br>
                     <span class='h5'>Date of birth:</span> dd/mm/yy <br>
-                    <span class='h5'>Address:</span> FPT University, Hoa Lac Hi-Tech, Km29 Thang Long Boulevard <br>
+                    <span class='h5'> Address<i class="fa fa-location-dot"></i>:</span> FPT University, Hoa Lac Hi-Tech, Km29 Thang Long Boulevard <br>
                     <span class='h5'>Zipcode:</span> 100000 <br>
-                    <span class='h5'>Email:</span> ...@gmail.com <br>
-                    <span class='h5'>Phone:</span> 0912345678</p>
+                    <span class='h5'>Email<i class="fa-solid fa-envelope"></i>:</span> ...@gmail.com <br>
+                    <span class='h5'>Phone<i class="fa-solid fa-phone"></i>:</span> 0912345678</p>
             </div>
 
             <div>
-                <h2 class='fw-semibold'>Education</h1>
-                <p class="h5 fw-normal">
-                    FPT University K21 '25 <br>
-                    <span class="h6 fw-normal">Software Engineer Major</span>
-                </p>
+                
 
 
-                <h2 class='fw-semibold'>Professional Development</h1>
-                <p>Tutor/Teaching Assistant for an edtech system in 2021.</p>
+                
+                <div id="image1">
+                    <div>
+                        <h2 class='fw-semibold'>Education</h2>
+                        <p class="h5 fw-normal">
+                            FPT University K21 '25 <br>
+                            <span class="h6 fw-normal">Software Engineer Major <br><br></span>
+                        </p>
+
+                        <h2 class='fw-semibold'>Professional Development</h1>
+                        <p>Tutor/Teaching Assistant for an edtech institute in 2021.</p>
+                    </div>
+                    <img src="./images/glonk.jpg" alt="sth">
+                </div>
 
                 <h2 class="fw-semibold">Awards</h2>
-                <p>Silver Medal <i class="fa-solid fa-medal"></i> - HongKong International Computational Olympiad (HKICO) 2025</p>
+                <p><span class="h5 fw-semibold">Silver Medal</span> <i class="fa-solid fa-medal"></i> - HongKong International Computational Olympiad (HKICO) 2025</p>
 
 
                 <h2 class='fw-semibold' id="contact">Contact</h2>
                 <p>This part is filler because I will not provide my personal info here <br>
-                    <span class='h5'>Email:</span> ...@gmail.com <br>
-                    <span class='h5'>Phone:</span> 0912345678</p>
+                    <span class='h5'>Email<i class="fa-solid fa-envelope"></i>:</span> ...@gmail.com <br>
+                    <span class='h5'>Phone<i class="fa-solid fa-phone"></i>:</span> 0912345678
+                </p>
             </div>
         </div>
 
@@ -111,17 +124,17 @@
             <!-- Quick Links (Matching Navbar Layout) -->
             <div class="col-md-4">
                 <ul class="list-unstyled d-flex justify-content-center justify-content-md-center gap-3 mb-0">
-                <li>
-                    <a href="index.html" class="text-white-50 text-decoration-none hover-white">
-                    <i class="fa fa-home me-1"></i>Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#about" class="text-white-50 text-decoration-none hover-white">About</a>
-                </li>
-                <li>
-                    <a href="#contact" class="text-white-50 text-decoration-none hover-white">Contact</a>
-                </li>
+                    <li>
+                        <a href="index.html" class="text-white-50 text-decoration-none hover-white">
+                        <i class="fa fa-home me-1"></i>Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="text-white-50 text-decoration-none hover-white">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="text-white-50 text-decoration-none hover-white">Contact</a>
+                    </li>
                 </ul>
             </div>
 
@@ -130,7 +143,7 @@
                 <div class="d-flex justify-content-center justify-content-md-end gap-3 fs-5 mb-2">
                 <a href="#" class="text-white-50"><i class="fa-brands fa-github"></i></a>
                 <a href="#" class="text-white-50"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="text-white-50"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="text-white-50"><i class="fa-brands fa-facebook"></i></a>
                 </div>
                 <p class="text-muted small mb-0">&copy; 2026 John Doe. All rights reserved.</p>
             </div>
